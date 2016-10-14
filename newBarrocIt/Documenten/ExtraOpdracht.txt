@@ -1,0 +1,4 @@
+extra opdracht
+bijhouden welk bedrag in het fractuur moet.
+bijhouden over hoeveel termijnen het fractuur betaald wordt.
+bijhouden van de status van het bedrag.

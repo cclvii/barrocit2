@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91E9CD39-4209-4A49-845A-7298FBB6741F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BarocIt</RootNamespace>
+    <AssemblyName>BarocIt</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarocItDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarocItDbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BarocItDbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarocItDbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BarocItDbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarocItDbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BarocItDbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarocItDbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BarocItDbDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarocItDbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BarocItDbDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarocItDbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBHandler.cs" />
+    <Compile Include="DevelopmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevelopmentForm.Designer.cs">
+      <DependentUpon>DevelopmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DsApplications.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsApplications.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsDevelopmentClients.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsDevelopmentClients.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDevelopmentProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDevelopmentProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFinanceClient.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFinanceClient.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFinanceProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFinanceProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSalesProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSalesProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_notPaidClients.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_notPaidClients.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_salesProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_salesProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ExitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitForm.Designer.cs">
+      <DependentUpon>ExitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinanceForm.Designer.cs">
+      <DependentUpon>FinanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesForm.Designer.cs">
+      <DependentUpon>SalesForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevelopmentForm.resx">
+      <DependentUpon>DevelopmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinanceForm.resx">
+      <DependentUpon>FinanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SalesForm.resx">
+      <DependentUpon>SalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BarocItDbDataSet.xsc">
+      <DependentUpon>BarocItDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarocItDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BarocItDbDataSet.xss">
+      <DependentUpon>BarocItDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet1.xsc">
+      <DependentUpon>BarocItDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarocItDbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BarocItDbDataSet1.xss">
+      <DependentUpon>BarocItDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet2.xsc">
+      <DependentUpon>BarocItDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarocItDbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BarocItDbDataSet2.xss">
+      <DependentUpon>BarocItDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet3.xsc">
+      <DependentUpon>BarocItDbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarocItDbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BarocItDbDataSet3.xss">
+      <DependentUpon>BarocItDbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet4.xsc">
+      <DependentUpon>BarocItDbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarocItDbDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BarocItDbDataSet4.xss">
+      <DependentUpon>BarocItDbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet5.xsc">
+      <DependentUpon>BarocItDbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BarocItDbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarocItDbDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BarocItDbDataSet5.xss">
+      <DependentUpon>BarocItDbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DsApplications.xsc">
+      <DependentUpon>DsApplications.xsd</DependentUpon>
+    </None>
+    <None Include="DsApplications.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsApplications.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsApplications.xss">
+      <DependentUpon>DsApplications.xsd</DependentUpon>
+    </None>
+    <None Include="DsDevelopmentClients.xsc">
+      <DependentUpon>DsDevelopmentClients.xsd</DependentUpon>
+    </None>
+    <None Include="DsDevelopmentClients.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsDevelopmentClients.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsDevelopmentClients.xss">
+      <DependentUpon>DsDevelopmentClients.xsd</DependentUpon>
+    </None>
+    <None Include="dsDevelopmentProjects.xsc">
+      <DependentUpon>dsDevelopmentProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsDevelopmentProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDevelopmentProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDevelopmentProjects.xss">
+      <DependentUpon>dsDevelopmentProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsFinanceClient.xsc">
+      <DependentUpon>dsFinanceClient.xsd</DependentUpon>
+    </None>
+    <None Include="dsFinanceClient.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFinanceClient.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFinanceClient.xss">
+      <DependentUpon>dsFinanceClient.xsd</DependentUpon>
+    </None>
+    <None Include="dsFinanceProjects.xsc">
+      <DependentUpon>dsFinanceProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsFinanceProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFinanceProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFinanceProjects.xss">
+      <DependentUpon>dsFinanceProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsSalesProjects.xsc">
+      <DependentUpon>dsSalesProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsSalesProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSalesProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSalesProjects.xss">
+      <DependentUpon>dsSalesProjects.xsd</DependentUpon>
+    </None>
+    <None Include="ds_notPaidClients.xsc">
+      <DependentUpon>ds_notPaidClients.xsd</DependentUpon>
+    </None>
+    <None Include="ds_notPaidClients.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_notPaidClients.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_notPaidClients.xss">
+      <DependentUpon>ds_notPaidClients.xsd</DependentUpon>
+    </None>
+    <None Include="ds_salesProjects.xsc">
+      <DependentUpon>ds_salesProjects.xsd</DependentUpon>
+    </None>
+    <None Include="ds_salesProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_salesProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_salesProjects.xss">
+      <DependentUpon>ds_salesProjects.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,40 @@
+9/9 Anthony :Plan van aanpak...
+rudy: recap interview writing.. offert writting. 
+sjoerd: planning, offert writting.
+
+10/9
+Rudy: offerte 
+Sjoerd: hernieuwde opdracht gestart
+Anthony: PvA
+
+11/9
+Sjoerd: UML case afgemaakt
+Rudy: Offerte afgemaakt
+Anthony: Afwezig
+
+14/9
+Rudy: offerte
+Anthony: pva
+Sjoerd: planning
+15/9
+Rudy: offerte
+Anthony: pva
+Sjoerd: planning
+16/9
+Rudy: offerte
+Anthony: pva
+Sjoerd: planning
+17/9
+Rudy offerte
+Anthony: pva
+sjoerd: hernieuwde opdracht
+18/9
+Rudy : activity diagram
+Sjoerd : useCase
+Anthony : finalise the plan van aanpak 
+
+22/09
+Rudy : pva
+s : usecase template afmaak... + planning
+anthony : activity diagrams
+

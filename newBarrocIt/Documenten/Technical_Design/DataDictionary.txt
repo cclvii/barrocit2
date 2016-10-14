@@ -1,0 +1,25 @@
+Bedrijfsnaam			tekst	Aaaa,Zzzz			Bedrijfsnaam die de klant hanteert. 
+Adres 1					tekst	Aaaa,Zzzz			Adres van de klant.
+Huisnummer1				tekst	000A,000Z			Huisnummer van de klant.
+Postcode1 (Zip code)	tekst	0000XX				Postcode van de klant.
+Stad1					tekst	Aaaa,Zzzz			Stad van de klant.
+Adres2					tekst	Aaaa,Zzzz			Alternatieve adres van de klant.
+Huisnummer2				tekst	000A,000Z			Alternatieve huisnummer van de klant.
+Postcode2 (Zip code)	tekst	0000XX				Alternatieve postcode van de klant.
+Stad2					tekst	Aaaa,Zzzz			Alternatieve stad van de klant.
+Contactpersoon			tekst	Aaaa,Zzzz			Contactpersoon in het bedrijf van de klant.
+Voorletters				tekst	A.A.A				Voorletters van de klant.
+Telefoonnummer1			getal	num^10				Telefoonnummer van de klant
+Telefoonnummer2			getal	num^10				Alternatieve telefoonnummer van de klant.
+Faxnummer				getal	0123				Faxnummer van de klant.
+Emailadres				tekst	Zzz@Zzz.Zzz			Emailadres van de klant.																							
+Offertenummer			tekst	0^10,9,^10			Dit is een uniek ID dat het mogelijk maakt om offertes te archiveren.
+Offertestatus			getal	0,3					De offertestatus verteld over het project of het goedgekeurd, afgelopen of gecanceld is.
+Potentiële klanten		Ja/Nee	0,1					Check of de kant potentieel is of hij al een project heeft of heeft gehad.
+Afspraak dag			tekst	dd/mm/yyyy			Dit is de dag dat er een afspraak is gemaakt die is vast gelegd.
+Laatste contactdatum	tekst	dd/mm/yyyy			Dit is de datum van het laatst gelegde contact tussen Barroc-IT en de klant.
+Volgende actie			tekst	Aaaa,Zzzz			Dit is de actie die besproken is tussen Barroc-IT en de klant dit kan zowel mondeling als per brief opgesteld zijn. Dit bevat ook de datum van de actie.
+Vorige actie			tekst	Aaaa,Zzzz			Dit is de vorige actie die ondernomen is bij en de klant dit kan zowel mondeling als per brief opgesteld zijn. Dit bevat ook de datum van de actie.
+Verkooppercentage		getal	0,100				Dit is het percentage van korting en een administratief percentage over verkoop en korting.
+Kredietwaardig			Ja/Nee	0,1					Hiermee wordt een indicatie gegeven of de klant voldoende geld heeft om een project te starten en te kunnen bekostigen.
+
