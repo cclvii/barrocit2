@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\bin\Debug\BarocIt.exe.config
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.AdminForm.resources
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.DevelopmentForm.resources
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.LoginForm.resources
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.Properties.Resources.resources
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\bin\Debug\BarocIt.exe
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\bin\Debug\BarocIt.pdb
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.exe
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.pdb
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.SalesForm.resources
+C:\Users\admin\Desktop\newBarrocIt\Documenten\Construction_phase\Solutions\BarocIt\BarocIt\obj\Debug\BarocIt.FinanceForm.resources
